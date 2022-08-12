@@ -1,7 +1,6 @@
 <?php
 
 return [
-    'enabled'     => env('NEWRELIC_ENABLED', true),
     'app_name'    => env('NEWRELIC_APP_NAME', env('APP_NAME', 'Laravel')),
     'deployments' => [
         'api_key'      => env('NEWRELIC_API_KEY'),
