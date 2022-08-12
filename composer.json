@@ -1,0 +1,49 @@
+{
+  "name": "igormatkovic/laravel-newrelic",
+  "description": "Minimal NewRelic Functionality for Laravel",
+  "keywords": [
+    "laravel",
+    "newrelic"
+  ],
+  "homepage": "https://github.com/igormatkovic/laravel-newrelic",
+  "license": "MIT",
+  "authors": [],
+  "require": {
+    "php": "^8.0",
+    "guzzlehttp/guzzle": "^7.4",
+    "illuminate/contracts": "^8.0 || ^9.0",
+    "illuminate/support":  "^8.0 || ^9.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^7.0 || ^6.0",
+    "phpunit/phpunit": "^9.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "IgorMatkovic\\LaravelNewRelic\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "IgorMatkovic\\LaravelNewRelic\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "post-autoload-dump": [
+      "@php ./vendor/bin/testbench package:discover --ansi"
+    ],
+    "test": "vendor/bin/phpunit --configuration phpunit.xml"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "IgorMatkovic\\LaravelNewRelic\\LaravelNewRelicServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
