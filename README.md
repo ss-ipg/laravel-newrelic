@@ -18,7 +18,7 @@ composer require igormatkovic/laravel-newrelic
 You can publish the config file with:
 
 ```bash
-php artisan vendor:publish --tag="laravel-newrelic"
+php artisan vendor:publish
 ```
 
 These are the ENV variables you can edit
