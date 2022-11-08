@@ -1,8 +1,8 @@
 <?php
 
-namespace IgorMatkovic\LaravelNewRelic\Tests;
+namespace SecureSpace\LaravelNewRelic\Tests;
 
-use IgorMatkovic\LaravelNewRelic\LaravelNewRelicServiceProvider;
+use SecureSpace\LaravelNewRelic\LaravelNewRelicServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 abstract class TestCase extends Orchestra

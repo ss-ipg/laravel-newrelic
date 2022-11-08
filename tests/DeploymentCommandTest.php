@@ -1,9 +1,9 @@
 <?php
 
-namespace IgorMatkovic\LaravelNewRelic\Tests;
+namespace SecureSpace\LaravelNewRelic\Tests;
 
-use IgorMatkovic\LaravelNewRelic\Exceptions\MissingNewrelicApiKeyException;
-use IgorMatkovic\LaravelNewRelic\Exceptions\MissingNewrelicAppIdException;
+use SecureSpace\LaravelNewRelic\Exceptions\MissingNewrelicApiKeyException;
+use SecureSpace\LaravelNewRelic\Exceptions\MissingNewrelicAppIdException;
 use Illuminate\Http\Client\Request;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Artisan;

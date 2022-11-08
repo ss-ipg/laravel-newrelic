@@ -1,7 +1,7 @@
 # Minimal Laravel NewRelic Integration
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/igormatkovic/laravel-newrelic.svg?style=flat-square)](https://packagist.org/packages/igormatkovic/laravel-newrelic)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/igormatkovic/laravel-newrelic/phpunit?label=tests)](https://github.com/igormatkovic/laravel-newrelic/actions?query=workflow%3Aphpunit+branch%master)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/ss-ipg/laravel-newrelic.svg?style=flat-square)](https://packagist.org/packages/ss-ipg/laravel-newrelic)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/ss-ipg/laravel-newrelic/phpunit?label=tests)](https://github.com/ss-ipg/laravel-newrelic/actions?query=workflow%3Aphpunit+branch%master)
 
 Simple NewRelic integration that names the APP in Newrelic for both CLI and Web requests.  
 It also includes a helper for the synthetics monitor and a deployment command helper.
@@ -11,7 +11,7 @@ It also includes a helper for the synthetics monitor and a deployment command he
 You can install the package via composer:
 
 ```bash
-composer require igormatkovic/laravel-newrelic
+composer require ss-ipg/laravel-newrelic
 ```
 
 

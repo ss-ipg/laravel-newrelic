@@ -1,6 +1,6 @@
 <?php
 
-namespace IgorMatkovic\LaravelNewRelic\Exceptions;
+namespace SecureSpace\LaravelNewRelic\Exceptions;
 
 use Exception;
 

@@ -1,11 +1,11 @@
 {
-  "name": "igormatkovic/laravel-newrelic",
+  "name": "ss-ipg/laravel-newrelic",
   "description": "Minimal NewRelic Functionality for Laravel",
   "keywords": [
     "laravel",
     "newrelic"
   ],
-  "homepage": "https://github.com/igormatkovic/laravel-newrelic",
+  "homepage": "https://github.com/ss-ipg/laravel-newrelic",
   "license": "MIT",
   "authors": [],
   "require": {
@@ -20,12 +20,12 @@
   },
   "autoload": {
     "psr-4": {
-      "IgorMatkovic\\LaravelNewRelic\\": "src"
+      "SecureSpace\\LaravelNewRelic\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "IgorMatkovic\\LaravelNewRelic\\Tests\\": "tests"
+      "SecureSpace\\LaravelNewRelic\\Tests\\": "tests"
     }
   },
   "scripts": {
@@ -40,7 +40,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "IgorMatkovic\\LaravelNewRelic\\LaravelNewRelicServiceProvider"
+        "SecureSpace\\LaravelNewRelic\\LaravelNewRelicServiceProvider"
       ]
     }
   },

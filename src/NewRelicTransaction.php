@@ -1,6 +1,6 @@
 <?php
 
-namespace IgorMatkovic\LaravelNewRelic;
+namespace SecureSpace\LaravelNewRelic;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Config;

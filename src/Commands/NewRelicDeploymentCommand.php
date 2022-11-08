@@ -1,9 +1,9 @@
 <?php
 
-namespace IgorMatkovic\LaravelNewRelic\Commands;
+namespace SecureSpace\LaravelNewRelic\Commands;
 
-use IgorMatkovic\LaravelNewRelic\Exceptions\MissingNewrelicApiKeyException;
-use IgorMatkovic\LaravelNewRelic\Exceptions\MissingNewrelicAppIdException;
+use SecureSpace\LaravelNewRelic\Exceptions\MissingNewrelicApiKeyException;
+use SecureSpace\LaravelNewRelic\Exceptions\MissingNewrelicAppIdException;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Http;

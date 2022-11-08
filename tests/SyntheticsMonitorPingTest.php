@@ -1,6 +1,6 @@
 <?php
 
-namespace IgorMatkovic\LaravelNewRelic\Tests;
+namespace SecureSpace\LaravelNewRelic\Tests;
 
 use Illuminate\Support\Facades\Config;
 

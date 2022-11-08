@@ -1,6 +1,6 @@
 <?php
 
-namespace IgorMatkovic\LaravelNewRelic;
+namespace SecureSpace\LaravelNewRelic;
 
 use Illuminate\Queue\Events\JobProcessed;
 use Illuminate\Queue\Events\JobProcessing;
@@ -8,7 +8,7 @@ use Illuminate\Queue\Queue;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\ServiceProvider;
-use IgorMatkovic\LaravelNewRelic\Commands\NewRelicDeploymentCommand;
+use SecureSpace\LaravelNewRelic\Commands\NewRelicDeploymentCommand;
 
 class LaravelNewRelicServiceProvider extends ServiceProvider
 {
