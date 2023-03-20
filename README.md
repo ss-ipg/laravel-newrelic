@@ -1,7 +1,7 @@
 # Minimal Laravel NewRelic Integration
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/ss-ipg/laravel-newrelic.svg?style=flat-square)](https://packagist.org/packages/ss-ipg/laravel-newrelic)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/ss-ipg/laravel-newrelic/phpunit?label=tests)](https://github.com/ss-ipg/laravel-newrelic/actions?query=workflow%3Aphpunit+branch%master)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/ss-ipg/laravel-newrelic/phpunit.yml?branch=master)](https://github.com/ss-ipg/laravel-newrelic/actions?query=workflow%3Aphpunit+branch%master)
 
 Simple NewRelic integration that names the APP in Newrelic for both CLI and Web requests.  
 It also includes a helper for the synthetics monitor and a deployment command helper.
