@@ -11,12 +11,12 @@
   "require": {
     "php": "^8.1",
     "guzzlehttp/guzzle": "^7.4",
-    "illuminate/contracts": "^8.0 || ^9.0",
-    "illuminate/support":  "^8.0 || ^9.0"
+    "illuminate/contracts": "^10.0",
+    "illuminate/support":  "^10.0"
   },
   "require-dev": {
-    "orchestra/testbench": "^7.0 || ^6.0",
-    "phpunit/phpunit": "^9.3"
+    "orchestra/testbench": "^7.0 || ^8.0",
+    "phpunit/phpunit": "^10.0"
   },
   "autoload": {
     "psr-4": {
@@ -40,7 +40,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "SecureSpace\\LaravelNewRelic\\LaravelNewRelicServiceProvider"
+        "SecureSpace\\LaravelNewRelic\\LaravelNewRelicServiceProvider::class"
       ]
     }
   },
